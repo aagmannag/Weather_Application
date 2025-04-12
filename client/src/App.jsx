@@ -24,7 +24,7 @@ const App = () => {
 
   const fetchWeather = async (city) => {
     try {
-      const res = await axios.get(`http://localhost:5000/weather?city=${city}`);
+      const res = await axios.get(`https://weather-61ww.onrender.com/weather?city=${city}`);
       setWeatherData(res.data);
       setError('');
       setSearchHistory((prevHistory) => {

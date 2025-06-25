@@ -33,7 +33,7 @@ A full-stack weather dashboard built with React (frontend) and Node.js/Express (
 
    - Start frontend (from `/client` directory):
      ```bash
-     npm start
+     npm run dev
      ```
 
 ## 🚀 Deployed Links
